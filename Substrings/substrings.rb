@@ -22,14 +22,14 @@ def substrings(string, array)
 		j = i
 	end
 
-	puts output
+	output
 end
+
+
+puts substrings("going going", dictionary)
 
 #substrings("below", dictionary)
 #=> {"below"=>1, "low"=>1}
-
-substrings("going going", dictionary)
-
 
 
 # Method will take a word as a first argument and an array of valid substrings as the second.
